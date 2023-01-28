@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1.First, Clone this repository:
 git clone
 
-2.after cloning, modify all "godrogodrodago.azurewebsites.net" to "localhost:3000" such that you will be able to access into the api in localhost developpment server
+2.after cloning, modify all "godrogodrodago.azurewebsites.net" to "localhost:3000" such that you will be able to access at the api from localhost developpment server. (for that, type ctrl+shift+f and search godrogodrodago.azurewebsites.net)
 
 3.Install node:
 
@@ -28,12 +28,7 @@ Verify that yarn is installed by running the following command in your terminal 
 yarn install
 
 6.Then, run the development server:
-
-```bash
-npm run dev
-# or
 yarn dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -53,9 +48,11 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
 
 ## run on docker
-Once docker was installed on your computer, you can run the follwing command to build and run the application:
+Once docker was installed on your system, you can execute the follwing commands to build and run the application on docker container:
 
 docker build -t imagenameinlowercase:tag .
 docker run -d -p 3002:3000 imagenameinlowercase:tag
+
+Open [http://localhost:3002](http://localhost:3002) with your browser to see the result.
 
 - your feedback and contributions are welcome!
